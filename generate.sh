@@ -8,7 +8,7 @@ fi
 # Name restriction in the android build system:
 _header_dir=kernel-headers
 _kernel_dir=`realpath ../kernel`
-_kernel_out="$ANDROID_ROOT/out/mainline-kernel"
+_kernel_out="$ANDROID_ROOT/out/kernel-mainline"
 
 echo "Generating kernel headers from $_kernel_dir to $_header_dir"
 
